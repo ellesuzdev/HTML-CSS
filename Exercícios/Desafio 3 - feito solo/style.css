@@ -1,0 +1,170 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'idroid' ;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+
+
+body {
+    background-color: rgb(188, 224, 188);
+    margin: auto;
+   
+}
+
+header {
+    background-image: linear-gradient(rgb(150, 255, 150), rgb(1, 61, 1) 80%);
+    padding: 15px;
+    width: 1815px;
+    text-align: center;
+    color: white;
+
+
+}
+
+main, aside{
+    background-color: white;
+    padding: 15px;
+    width: 800px;
+    margin-left: 500px;
+    margin-right: 500px;
+    box-shadow: 2px rgba(0, 0, 0, 0.363);
+   
+}
+
+aside {
+      border-radius: 0px 0px 15px 15px;
+
+}
+
+
+ h2, h3 {
+     font-family: 'idroid';
+     background-image: linear-gradient(to right,rgb(26, 184, 26) ,  rgba(178, 241, 178, 0.363) 60% );
+}
+
+p, ul, h4{
+
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 5px 5px 5px black;
+}
+
+
+nav > a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+head > a {
+    background-color:rgb(150, 255, 150) ;
+}
+
+
+#noticias {
+    margin-left: 15px;
+}
+
+#noticias:hover {
+    background-color: lightgreen;
+    padding: 7px;
+}
+
+#curi {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 7px;
+}
+
+#curi:hover {
+    background-color: lightgreen;
+    padding: 7px;
+}
+
+#home {
+        margin-left: 10px;
+
+}
+
+#home:hover {
+    background-color: lightgreen;
+    padding: 7px;
+}
+
+#fale:hover {
+    background-color: lightgreen;
+    padding: 7px;
+}
+
+nav {
+    text-align: left;
+}
+
+footer {
+    background-color: darkgreen;
+    width: 1845px;
+    text-align: center;
+    color: rgb(181, 255, 181);
+    padding-bottom: 9px;
+    padding-top: 2px;
+    margin-top: 20px;
+
+}
+
+
+#video {
+    border: 35px solid darkgreen;
+    outline: 8px solid darkgreen;
+
+    
+    
+}
+
+img {
+    width: 100%;
+}
+
+aside > h4 {
+
+    color: white;
+    background-color: darkgreen;
+    padding: 15px;
+    margin-bottom: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+aside > article {
+    background-color: rgb(215, 255, 215);
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.151);
+
+}
+
+span {
+    color: green;
+    font-weight: bold;
+}
+
+#footer > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a {
+color: green;
+text-decoration: none;
+font-weight: bold;
+}
+
